@@ -1,0 +1,52 @@
+name: unieatsappv0
+description: "A new Flutter project."
+
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_animate: ^4.2.0  # Add this line
+  provider: ^6.0.5
+  cupertino_icons: ^1.0.5
+  http: ^1.1.0
+  shared_preferences: ^2.2.0
+  intl: ^0.20.2
+  flutter_svg: ^2.0.7
+  cached_network_image: ^3.2.3
+  google_fonts: ^6.2.1
+  flutter_rating_bar: ^4.0.1
+  shimmer: ^3.0.0
+  carousel_slider: ^5.0.0
+  flutter_secure_storage: ^9.2.4
+  uuid: ^4.5.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
